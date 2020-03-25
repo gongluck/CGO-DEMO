@@ -13,14 +13,16 @@ import "C"
 import (
 	"fmt"
 	"unsafe"
+
+	"009_Export_the_qsort_function_from_the_Go_package/qsort"
 )
 
 func main() {
 	values := []int32{42, 9, 101, 95, 27, 25}
 
-	Sort(unsafe.Pointer(&values[0]),
+	qsort.Sort(unsafe.Pointer(&values[0]),
 		len(values), int(unsafe.Sizeof(values[0])),
-		CompareFunc(C.go_qsort_compare),
+		qsort.CompareFunc(C.go_qsort_compare),
 	)
 	fmt.Println(values)
 }

@@ -5,7 +5,7 @@
  * @Last Modified time: 2020-03-24 22:12:51
  */
 
-package main
+package qsort
 
 /*
  #include <stdlib.h>
