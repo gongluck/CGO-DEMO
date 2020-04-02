@@ -1,4 +1,7 @@
 *.mod
+bin
+tmp
+.vs
 
 # Binaries for programs and plugins
 *.exe
@@ -16,3 +19,4 @@ _obj
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+

@@ -1,0 +1,4 @@
+LIBRARY number.dll
+
+EXPORTS
+number_add_mod
