@@ -1,3 +1,0 @@
-module 010_The_closure_function_ACTS_as_a_comparison_function
-
-go 1.13

@@ -1,3 +1,0 @@
-module 011_Eliminates_user_dependency_on_unsafe_packages
-
-go 1.13

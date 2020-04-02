@@ -1,3 +1,0 @@
-module 014_C_holds_the_Go_pointer_object_for_a_long_time
-
-go 1.13
