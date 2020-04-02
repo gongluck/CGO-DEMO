@@ -8,6 +8,7 @@ tmp
 *.exe~
 *.dll
 *.so
+*.a
 *.dylib
 
 # Test binary, built with `go test -c`
@@ -20,3 +21,4 @@ _obj
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+019_Export_C_library/number.h
