@@ -1,11 +1,14 @@
 #!/bin/bash   
-./del.sh
 for f in ./*
     do
 	if [ -d $f ]; then
 		cd $f
-		go mod init ${f##*./}
-		go build
+		if [ -f "go.mod" ]; then 
+    			rm go.mod
+		fi
+		if [ -x $f ]; then
+			rm $f
+		fi
 		cd ..		
         fi   
 done
